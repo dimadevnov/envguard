@@ -1,0 +1,13 @@
+{
+  "name": "envguard-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that checks your .env against .env.example — catches missing, empty and undocumented variables before they break prod.",
+  "type": "module",
+  "bin": { "envguard": "bin/envguard.js" },
+  "main": "src/index.js",
+  "files": ["bin", "src"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["env", "dotenv", "cli", "ci", "config", "lint"],
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
