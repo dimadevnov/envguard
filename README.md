@@ -7,6 +7,13 @@
 ## Use
 
 ```bash
+git clone https://github.com/dimadevnov/envguard && cd envguard
+node bin/envguard.js --env path/to/.env --example path/to/.env.example
+```
+
+Once published to npm you will be able to run it with `npx envguard-cli`.
+
+```bash
 npx envguard-cli                         # .env vs .env.example
 npx envguard-cli --env .env.production --strict
 npx envguard-cli --json                  # for scripts
