@@ -8,7 +8,7 @@ I kept hitting "works on my machine" bugs caused by a missing variable in someon
 
 ## Reddit (r/node, r/webdev, r/devops)
 Title: I made a tiny CLI that catches missing env variables before they break prod
-Body: `npx envguard-cli --strict` — compares .env to .env.example, zero deps, JSON output, CI exit codes. MIT. Would love feedback and feature ideas.
+Body: `npx @dimadevtop/envguard-cli --strict` — compares .env to .env.example, zero deps, JSON output, CI exit codes. MIT. Would love feedback and feature ideas.
 
 ## X / Twitter
 "Works on my machine" = your teammate forgot STRIPE_KEY in .env 😅
